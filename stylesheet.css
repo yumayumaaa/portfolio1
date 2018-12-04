@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container{
+  width:100%;
+
+}
+
+.header{
+  background-color:#f0f8ff;
+  height:65px;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+.header-left a{
+  font-size:30px;
+  padding:10px 40px;
+  float:left;
+
+}
+.top-wrapper{
+  text-align:center;
+  padding:180px 0px 100px 0px;
+  height:250px;
+  background-image:url(uiui.png);
+  background-size:cover;
+
+}
+.lesson-header {
+  float:left
+}
+.lessons{
+  padding-top:10px;
+  text-align:center;
+}
+.lesson{
+  float:left;
+  padding-top:40px;
+  width:25%;
+  text-align:center;
+  position:relative;
+}
+.lesson-icon{
+  background-color:#008b8b
+}
+
+.lesson p{
+  position:absolute;
+  top:270px;
+  left:118px;
+
+}
+
+.top-wrapper h1{
+  font-size:60px;
+  color:white;
+}
+
+.lesson-wrapper{
+  height:750px;
+  background-image:url(chess.png);
+  background-size:cover;
+}
+.lesson-coment1{
+  float:left;
+  padding-left:20px;
+  font-size:20px;
+  font-weight:bold
+}
+.lesson-coment2{
+  float:left;
+  padding-left:135px;
+  padding-top:2px;
+  font-size:20px;
+font-weight:bold;
+}
+.lesson-coment3{
+  float:left;
+  padding-left:150px;
+  padding-top:2px;
+  font-size:20px;
+  font-weight:bold;
+}
+.lesson-coment4{
+  float:left;
+  padding-left:80px;
+  padding-top:2px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.message-wrapper{
+  height:300px;
+  background-image:url(jiko.png);
+  background-size:contain;
+}
+
+.message{
+  text-align:center;
+  font-size:28px;
+  font-weight:bold;
+}
+.huhu li{
+  text-align:left;
+padding-bottom:20px;
+margin:10px;
+color:#800000;
+font-weight:bold;
+
+}
+
+.huhu span{
+   color:#000000;
+}
+footer{
+  height:80px;
+  text-align:center;
+  background-color:#191970;
+
+  font-size:18px;
+
+}
+footer a{
+  color:white;
+  padding:40px;
+}
